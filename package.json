@@ -1,0 +1,34 @@
+{
+  "name": "po2mo-loader",
+  "version": "0.0.1",
+  "description": "webpack loader to transform gettext PO files to MO files",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib --presets es2015",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubencosta/po2mo-loader.git"
+  },
+  "keywords": [
+    "po",
+    "mo",
+    "gettext",
+    "webpack"
+  ],
+  "author": "Ruben Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubencosta/po2mo-loader/issues"
+  },
+  "homepage": "https://github.com/rubencosta/po2mo-loader#readme",
+  "dependencies": {
+    "gettext-parser": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
