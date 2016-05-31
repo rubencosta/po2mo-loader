@@ -1,6 +1,6 @@
 {
   "name": "po2mo-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webpack loader to transform gettext PO files to MO files",
   "main": "lib/index.js",
   "scripts": {
